@@ -34,7 +34,6 @@ export default function Portfoliofilter() {
             <ul className="portfolio-filter text-center mb-30">
               <li
                 className={activeFilter === "*" ? "active" : ""}
-                id="me"
                 onClick={() => handleFilterClick("*")}
               >
                 All
@@ -64,17 +63,16 @@ export default function Portfoliofilter() {
                 Marketing
               </li>
             </ul>
-            <div
-              className="row portfolio-items"
-             
-            >
+            <div className="row portfolio-items">
               <div
                 className="col-md-4 col-sm-6 padding-10 single-item design wordpress"
                 style={{
                   display:
                     activeFilter === "*" ||
                     activeFilter === ".design" ||
-                    activeFilter === ".wordpress"
+                    activeFilter === ".wordpress" ||
+                    activeFilter === ".branding" ||
+                    activeFilter === ".marketing"
                       ? "block"
                       : "none",
                 }}
