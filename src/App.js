@@ -99,12 +99,7 @@ function App() {
         </div>
       </div>
       {/* dl-fixed-sidebar */}
-      <div class="dl-side-content">
-        <div class="content-lines-wrapper">
-          <div class="content-lines-inner">
-            <div class="content-lines"></div>
-          </div>
-        </div>
+     
         <div
           className="dl-side-content"
           style={{ marginLeft: "auto", marginTop: "-65px" }}
@@ -180,7 +175,6 @@ function App() {
           <Footer />
         </div>
       </div>
-    </div>
 
   );
 }
