@@ -172,12 +172,13 @@ h6 {
   top: 0;
   left: 0;
 }
+content-lines-wrapper
 
 .site-preloader-wrap .spinner {
-  background-color: #cba982;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  background-color: #cba982 !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
   margin-left: -20px;
   margin-top: -20px;
 }
@@ -979,4 +980,33 @@ li::marker {
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.dl-side-content{
+  position: relative;
+}
+.content-lines-wrapper {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.content-lines-inner {
+  position: absolute;
+  width: 1140px;
+  left: 50%;
+  margin-left: -570px;
+  top: 0;
+  height: 100%;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+.content-lines {
+  position: absolute;
+  left: 33.666666%;
+  right: 33.666666%;
+  height: 100%;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }

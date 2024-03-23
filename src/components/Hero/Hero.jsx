@@ -9,7 +9,7 @@ export default function Hero() {
   if (!user || !user.about) {
     return <div>Loading...</div>;
   }
- 
+
   return (
     <div>
       <section

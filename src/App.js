@@ -36,7 +36,6 @@ function App() {
   }, []);
 
 
-  
   return (
 
     <div className="App" id="home">
@@ -100,79 +99,86 @@ function App() {
         </div>
       </div>
       {/* dl-fixed-sidebar */}
-      <div
-        className="dl-side-content"
-        style={{ marginLeft: "auto", marginTop: "-65px" }}
-      >
-        <div className="content-lines-wrapper">
-          <div className="content-lines-inner">
-            <div className="content-lines"></div>
+      <div class="dl-side-content">
+        <div class="content-lines-wrapper">
+          <div class="content-lines-inner">
+            <div class="content-lines"></div>
           </div>
         </div>
-
-        {/* content-lines-wrapper */}
-        <header
-          className="hero-section d-flex align-items-center bd-bottom"
-          data-scroll-index="0"
+        <div
+          className="dl-side-content"
+          style={{ marginLeft: "auto", marginTop: "-65px" }}
         >
-          <div className="container">
-            <div className="hero-content text-center">
-              <h4>Hello! I'M</h4>
-              <h1>John Doe</h1>
-              <h2>
-                I'm {" "}
-                <ReactTyped
-                  strings={["Freelancer.", "Designer.", "Developer."]}
-                  typeSpeed={150}
-                  loop
-                />
-              </h2>
+          <div className="content-lines-wrapper">
+            <div className="content-lines-inner">
+              <div className="content-lines"></div>
             </div>
-            <ul className="hero-social">
-              <li>
-                <a href="#">
-                  <i className="ti-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="ti-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="ti-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="ti-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="ti-youtube"></i>
-                </a>
-              </li>
-            </ul>
           </div>
-        </header>
-        {/* hero-section */}
-        <Hero />
-        {/* about-section */}
-        <About />
-        {/* resume-section */}
-        <Resume />
-        {/* services-section */}
-        <Portfoliofilter />
-        {/* portfolio-section */}
-        <Portfolio />
-        {/* testimonial-section */}
-        <Testimonial />
-        {/* contact-section */}
-        <Contact />
-        {/* footer-section */}
-        <Footer />
+
+          {/* content-lines-wrapper */}
+          <header
+            className="hero-section d-flex align-items-center bd-bottom"
+            data-scroll-index="0"
+          >
+            <div className="container">
+              <div className="hero-content text-center">
+                <h4>Hello! I'M</h4>
+                <h1>John Doe</h1>
+                <h2>
+                  I'm {" "}
+                  <ReactTyped
+                    strings={["Freelancer.", "Designer.", "Developer."]}
+                    typeSpeed={150}
+                    loop
+                  />
+                </h2>
+              </div>
+              <ul className="hero-social">
+                <li>
+                  <a href="#">
+                    <i className="ti-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="ti-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="ti-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="ti-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="ti-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </header>
+          {/* hero-section */}
+          <Hero />
+          {/* about-section */}
+          <About />
+          {/* resume-section */}
+          <Resume />
+          {/* services-section */}
+          <Portfoliofilter />
+          {/* portfolio-section */}
+          <Portfolio />
+          {/* testimonial-section */}
+          <Testimonial />
+          {/* contact-section */}
+          <Contact />
+          {/* footer-section */}
+          <Footer />
+        </div>
       </div>
     </div>
 
